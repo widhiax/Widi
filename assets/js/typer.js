@@ -1,6 +1,7 @@
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
+// SEA maksudnya Social Economic Agriculture alias nama departemen Agribisnis kak
 const textArray = ["SEA Student.","Developer Intern."];
 const typingDelay = 120;
 const erasingDelay = 50;

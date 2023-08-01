@@ -746,15 +746,10 @@ img{
   position: fixed;
   bottom: 30px;
   right: 30px;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   color: #fff;
-  border-radius: 5px;
-  border-radius: 1px solid #fff;
+  border-radius: 20px;
+  border-radius: 20px solid #fff;
   cursor: pointer;
   transition: all 0.5s ease 0s;
-}
-
-.scrollToTop:hover{
-  background-color: #f7f7f7;
-  color: #000;
 }
