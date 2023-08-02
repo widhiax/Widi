@@ -429,8 +429,7 @@ img{
 }
 
 /* ===== CONTACT =====*/
-
-.wrapper .buttons{
+/* .wrapper .buttons{
   display: inline-block;
   height: 4rem;
   width: 4rem;
@@ -507,10 +506,11 @@ img{
 }
 .wrapper .buttons .icons a{
   text-decoration: none;
-}
+} */
 
 /* ===== FOOTER =====*/
 .footer{
+  margin-top: 45px;
   background-color: var(--second-color);
   color: #fff;
   text-align: center;
@@ -742,14 +742,17 @@ img{
 .scrollToTop {
   display: flex;
   height: 30px;
+  width: 30px;
   padding: 0;
   position: fixed;
   bottom: 30px;
   right: 30px;
-  /* background-color: #ffffff; */
+  background-color: #aeaeae;
   color: #fff;
   border-radius: 20px;
   border-radius: 20px solid #fff;
   cursor: pointer;
   transition: all 0.5s ease 0s;
+  justify-content: center;
+  align-items: center;
 }
